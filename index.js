@@ -90,7 +90,7 @@ function dropdown_auswahl(){
 
   for(const value of personen){
     const dropdown_eintrag = document.createElement('option');
-    dropdown_eintrag.setAttribute("label", value);
+    dropdown_eintrag.innerHTML = value;
     dropdown_eintrag.setAttribute("value",value);
     dropdown_eintrag.setAttribute("id","wichteloption");
     dropdown.appendChild(dropdown_eintrag);
