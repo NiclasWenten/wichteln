@@ -7,13 +7,208 @@ body{
    
 }
 
+@media only screen and (max-width: 667px) {
+    #page{
+        background-image: url("christmas-4701783.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right center;
+        height: 100vh;
+    }
+    #navbar{
+        height: 30px;
+        width: 100%;
+        background-color: #82a1a3;
+    }
+    
+    #text1{
+        padding-top: 3px;
+        font-family: 'Quicksand', sans-serif;
+        color:#ffffff;
+       margin-left: 3%;
+       font-size: 20px;
+       margin-block-start: 0em;
+       margin-block-end: 0em;
+       
+    }
+    #ow{
+        color: #ffffff;
+       font-family: 'Quicksand', sans-serif; 
+       margin-top: 30%;
+       font-size: 30px;
+    }
+
+    #input_container{
+        margin-top: 2%;
+        text-align: center;
+        
+    }
+    #text2{
+        font-family: 'Quicksand', sans-serif;
+        color: #ffffff;
+        padding-bottom: 55%;
+        font-weight: 700;
+        padding-top: 5%;
+    }
+
+    #container{
+        margin-top: 1%;
+    background-color: #ffffff;
+    padding-top: 5%;
+    
+    height: 400px;
+    }
+
+    #button_input{
+        background-color: #82a1a3;
+        border-radius: 5px;
+        height: 34px;
+        width: 60px;
+        border:1px solid #82a1a3;
+        font-family: 'Quicksand', sans-serif;
+        color:white;
+        transition:0.3s;
+    }
+    #button_input:hover{
+        background-color:#94b2b4;
+        color: white;
+        opacity: 0.7;
+        
+    }
+
+    
+    #name_input{
+        border:solid 1px #919294;
+        border-radius: 5px;
+        padding: 0.5%;
+        color: #82a1a3;
+        font-family: 'Quicksand', sans-serif;
+        height: 30px;
+        width: 180px;
+    }
+    
+    ::placeholder{
+        color: #919294;
+        font-family: 'Quicksand', sans-serif;
+    }
+    #fertig_input{
+        background-color: #82a1a3;
+        border-radius: 5px;
+        height: 34px;
+        width: 60px;
+        border:1px solid #82a1a3;
+        font-family: 'Quicksand', sans-serif;
+        color:white;
+        transition:0.3s;
+    }
+    #fertig_input:hover{
+        background-color:#94b2b4;
+        color: white;
+        opacity: 0.7;
+    }
+
+    #ausgabe{
+        text-align: left;
+        margin-top: 2%;
+        border-radius: 5px;
+        margin-left: 30%;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+
+#Weihnachten{
+    display:none;
+}
+
+#page2{
+    background-color:#c9c9c9;
+    height: 400px;
+    text-align: center;
+}
+ #p2h2{
+    font-family: 'Quicksand', sans-serif; 
+    text-align: center;
+    padding-top: 2%;
+ }
+
+ #dropdown_id{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    -moz-padding-start: calc(10px - 3px);
+    width: 35%;
+    height: 40px;
+    padding-left:3%;
+    margin-left: 3%;
+    margin-top:5%;
+    background-color: #82a1a3;
+    font-family: 'Quicksand', sans-serif;
+    outline: none;
+    color:white;
+}
+
+#dropdown_id::-ms-expand {
+    display: none;
+  }
+
+  #schenkender{
+      float: left;
+      font-family: 'Quicksand', sans-serif;
+      color: #94b2b4;
+      padding-right: 0.5%;
+
+  }
+
+  .beschenkt{
+    font-family: 'Quicksand', sans-serif; 
+    float: left;
+    padding-right: 0.5%;
+  }
+
+  .beschenkt2{
+    font-family: 'Quicksand', sans-serif; 
+
+    padding-right: 0.5%;
+  }
+  #wichtel_paare{
+    
+    padding-top: 6%;
+    margin-left: 3%;
+  }
+
+  #randomanzeige{
+    float: left;
+    font-family: 'Quicksand', sans-serif; 
+    padding-right: 0.5%; 
+    color: #82a1a3;
+  }
+
+  #nächster_button_html{
+    background-color: #82a1a3;
+    border-radius: 5px;
+    padding: 0.5%;
+    border:1px solid #82a1a3;
+    font-family: 'Quicksand', sans-serif;
+    color:white;
+    transition:0.3s;
+    margin-left: 1.5%;
+  }
+
+  #nächster_button_html:hover{
+    background-color:#c9c9c9;
+    color: #82a1a3;
+  }
+
+}
+
+
+
 @media only screen and (min-width: 668px){
     #page{
         background-image: url("christmas-4701783.png");
-        background-size:100%;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 1000px;
+        height: 100vh;
     }
     #text1{
         margin-top: 10px;
@@ -175,6 +370,7 @@ body{
       #media{
         background-color:#c9c9c9;
       }
+
       #countdown{
 
             margin-left: auto;
@@ -248,10 +444,11 @@ body{
      }
     #page{
         background-image: url("christmas-4701783.png");
-        background-size:100%;
+       
+        height: 100vh;
         display: flex;
         flex-direction: row;
-        height: 1000px;
+       
     }
     #text1{
         margin-top: 10px;
@@ -470,8 +667,10 @@ body{
      #page2{
         background-color:#c9c9c9;
         height: 750px;
+        
     }
      #p2h2{
+         padding-top: 3%;
         font-family: 'Quicksand', sans-serif; 
         margin-left:3%;
      }
